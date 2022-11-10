@@ -11,7 +11,7 @@
 
 <img src="/img/weaksignal_cover_19.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="cover19" align="right"></img>
 <img src="/img/weaksignal_cover_15_1.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="cover15"></img>
-
+</br>
 
 
 # Chaper 1. 미래기술 위크시그널
