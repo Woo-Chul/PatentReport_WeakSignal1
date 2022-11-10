@@ -29,10 +29,12 @@
 <p align="center">
 <img src="/img/KISTI_process.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kisti" align="center"></img>
 </p>
+</br>
+</br>
 <p align="center">
 <img src="/img/KIPI_process.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kipi" align="center"></img>
 </p>
-
+</br>
 #### 1.1.1 실험 데이터
 - 1999년 ~ 2018년 
 - 특허 공개공보 데이터 
