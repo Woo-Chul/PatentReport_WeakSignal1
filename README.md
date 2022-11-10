@@ -26,6 +26,13 @@
 > 법을 시도해보았고 한국특허정보원에서도 국내 특허데이터로 실험을 진행해보았습니다.
 
 ### 1.1 위크시그널 자동탐지 프로세스
+<p align="center">
+<img src="/img/KISTI_process.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="kisti" align="center"></img>
+</p>
+<p align="center">
+<img src="/img/KIPI_process.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="kipi" align="center"></img>
+</p>
+
 #### 1.1.1 실험 데이터
 - 1999년 ~ 2018년 
 - 특허 공개공보 데이터 
