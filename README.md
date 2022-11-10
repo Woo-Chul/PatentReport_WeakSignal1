@@ -7,8 +7,7 @@
 > '[**KISTI DATA INSIGHT 제15호 : 미래기술 위크시그널**](https://www.kisti.re.kr/post/data-insight?t=1668036309836)'의 내용을 많은 부분 참고하였고 인용하였습니다.
 > 아래 설명하는 실험들은 특허데이터만을 적용한 내용입니다.
 > 또한 KISTI 미래기술 위크시그널 분석 방법이나 데이터에서 차이가 있음을 미리 알려드립니다. 
-> 추가적으로 이 글에서는 혼동을 방지하기 위해 참고한 KISTI 미래기술 위크시그널 방식은 'KISTI 위크시그널'로 명명하고 특허데이터를 적용한 방식은 'KIPI 위크시그널'로 구분하여 설명
-> 드리겠습니다.
+
 
 </br>
 </br>
@@ -26,11 +25,16 @@
 > 법을 시도해보았고 한국특허정보원에서도 국내 특허데이터로 실험을 진행해보았습니다.
 
 ### 1.1 위크시그널 자동탐지 프로세스
+> 이 글에서는 혼동을 방지하기 위해 참고한 KISTI 미래기술 위크시그널 방식은 'KISTI 위크시그널'로 명명하고 특허데이터를 적용한 방식은 'KIPI 위크시그널'로 구분하여 설명드리겠습니다.
+
+> KISTI 위크시그널 자동탐지 프로세스
 <p align="center">
 <img src="/img/KISTI_process.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kisti" align="center"></img>
 </p>
 </br>
 </br>
+
+> KIPI 위크시그널 자동탐지 프로세스
 <p align="center">
 <img src="/img/KIPI_process.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kipi" align="center"></img>
 </p>
@@ -38,15 +42,37 @@
 ### 1.2 위크시그널 자동탐지 현황
 
 #### 1.2.1 실험 데이터
+
 - 1999년 ~ 2018년 
 - 특허 공개공보 데이터 
 - CPC(Cooperative Patent Classification)에서 A section인 건만 대상
 - 전체 3,360,316건 중 505,560건
+- 대상 필드는 발명의 명칭, 요약, 배경기술, 기술분야로 적용
 
 <p align="center">
 <img src="/img/target_patent_docs.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
+
+#### 1.2.2 키워드 추출
+
+> SoyNLP L-[R] 명사 추출기 사용
+
+- 버전 : SoyNLP 0.0493
+- 통계기반의 미등록 용어문제 해결, L-[R] Graph 구조를 활용한 명사 추출
+- Noun Extractor를 이용한 명사 및 복합명사 추출 → LTokenizer를 이용한 단어 분리(KorPatBERT Tokenizer에서도 Mecab형태소 분석기 사용자 사전 용어 등록 시 활용)
+- LTokenizer 사용자 사전 명사 : 684,938건
+
+> KorPatBERT CPC 분류기 모델 사용
+
+- LTokenizer 사용자 사전 복합 명사 : 959,757건
+- 총 구축 명사 1,644,694건
+- Noun Score > 0.8
+- 대상 문헌 기준 386,904건의 명사 추출
+
+<p align="center">
+<img src="/img/ex_keyword_extract.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
 </br>
 
 ## 2. 위크시그널 성장예측모델
