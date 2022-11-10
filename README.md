@@ -1,4 +1,4 @@
-# KIPI DATA INSIGHT
+# <img src="/img/kipi_logo.png" width="3%" height="3%" title="px(픽셀) 크기 설정" alt="kipi" align="left"></img>KIPI DATA INSIGHT
 
 특허 DATA를 활용한 미래 기술 위크시그널 성장예측 분석
 ======================
