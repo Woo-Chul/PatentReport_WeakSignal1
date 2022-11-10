@@ -31,6 +31,11 @@
 - 특허 공개공보 데이터 
 - CPC(Cooperative Patent Classification)에서 A section인 건만 대상
 - 전체 3,360,316건 중 505,560건 
+<p align="center">
+<img src="/img/target_patent_docs.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
+</br>
 
 ### 1.2 위크시그널 자동탐지 현황
 
