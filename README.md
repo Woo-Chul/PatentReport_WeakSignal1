@@ -9,6 +9,9 @@
 > 또한 이 글에서는 혼동을 방지하기 위해 참고한 KISTI 미래기술 위크시그널 방식은 'KISTI 위크시그널'로 명명하고 특허데이터를 적용한 방식은 'KIPI 위크시그널'로 구분하여 설명
 > 드리겠습니다.
 
+<img src="/img/weaksignal_cover_19.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<img src="/img/weaksignal_cover_15.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+
 
 # Chaper 1. 미래기술 위크시그널
 ## 1. 위크시그널
