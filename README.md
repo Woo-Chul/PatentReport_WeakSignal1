@@ -27,14 +27,14 @@
 ### 1.1 위크시그널 자동탐지 프로세스
 이 글에서는 혼동을 방지하기 위해 참고한 KISTI 미래기술 위크시그널 방식은 'KISTI 위크시그널'로 명명하고 특허데이터를 적용한 방식은 'KIPI 위크시그널'로 구분하여 설명드리겠습니다.
 
-> KISTI 위크시그널 자동탐지 프로세스
+> ```KISTI 위크시그널 자동탐지 프로세스```
 <p align="center">
 <img src="/img/KISTI_process.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kisti" align="center"></img>
 </p>
 </br>
 </br>
 
-> KIPI 위크시그널 자동탐지 프로세스
+> ```KIPI 위크시그널 자동탐지 프로세스```
 <p align="center">
 <img src="/img/KIPI_process.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kipi" align="center"></img>
 </p>
