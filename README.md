@@ -116,14 +116,22 @@
 - TF-IDF의 term을 키프레이즈로 변경
 
 <p align="center">
-<img src="/img/tf-idf.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/tf-idf.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
+
+> doc1-gram1 PS-IDS Score = 0.9 x log(3/0.9+0.3+0.2)+1)
+
+> 연산율 감소 방안
+
+- Gram vector = mean(noun1_v1, noun2_v, noun3_v)
+- IDS 용 doc vector = 1/10 of total doc vector
 
 <p align="center">
 <img src="/img/ps-ids.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-
 </br>
+
+
 
 #### 1.2.6 Poping 키워드&키프레이즈 검증
 
