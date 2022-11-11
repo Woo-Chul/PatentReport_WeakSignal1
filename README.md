@@ -75,6 +75,17 @@
 </p>
 </br>
 
+#### 1.2.3 키프레이즈 추출
+
+> 키 프레이즈란 약 2~4 내의 단어로 이루어진 의미적으로 완전한 어구
+
+> 워드단위 < 프레이즈 단위 < 문장단위 
+
+<p align="center">
+<img src="/img/ex_keyword_extract.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
+
 ## 2. 위크시그널 성장예측모델
 
 ### 2.1 학습모델: Graph Convolutional Neural Network
