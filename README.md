@@ -109,7 +109,21 @@
 
 #### 1.2.5 Poping 키프레이즈 추출
 
+> PS-IDS
 
+- PS(Phrase Similarity) : 키프레이즈-문서간의 유사도
+- IDS(Inversed Document Similarity) : 키프레이즈와 총문서들간의 유사도 역수
+- TF-IDF의 term을 키프레이즈로 변경
+
+<p align="center">
+<img src="/img/tf-idf.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+
+<p align="center">
+<img src="/img/ps-ids.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+
+</br>
 
 #### 1.2.6 Poping 키워드&키프레이즈 검증
 
