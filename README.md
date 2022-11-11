@@ -102,6 +102,11 @@
 </br>
 
 
+<p align="center">
+<img src="/img/poping_keyword_extract2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
+
 #### 1.2.5 Poping 키프레이즈 추출
 
 
