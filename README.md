@@ -101,6 +101,26 @@
 </p>
 </br>
 
+> 경향성 0초과 키워드 [135,809건] 대상
+
+<p align="center">
+<img src="/img/poping_keyword_extract_target.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
+
+> BM25기반, TF-IDF기반 Poping 키워드 예시
+
+<p align="center">
+<img src="/img/poping_keyword_extract_ex.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
+
+> Poping 키워드 추출 결과
+
+<p align="center">
+<img src="/img/poping_keyword_extract_result.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
 
 <p align="center">
 <img src="/img/poping_keyword_extract2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
