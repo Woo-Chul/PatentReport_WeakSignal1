@@ -77,14 +77,38 @@
 
 #### 1.2.3 키프레이즈 추출
 
-> 키 프레이즈란 약 2~4 내의 단어로 이루어진 의미적으로 완전한 어구
+> 실험 대상 기준 키프레이즈 추출
 
-> 워드단위 < 프레이즈 단위 < 문장단위 
+- 대상필드 : 발명의 명칭, 요약, 배경기술, 기술분야 필드
+- 키 프레이즈란 약 2~4 내의 단어로 이루어진 의미적으로 완전한 어구
+- 워드단위 < 프레이즈 단위 < 문장단위 
 
 <p align="center">
-<img src="/img/ex_keyword_extract.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/key_phrase.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
+
+#### 1.2.4 Poping 키워드 추출
+
+> 경향성 = 빈도수(후반3년) - 빈도수(전반3년) > 10
+
+> 규모성 = 빈도수(최근3년) >= 40
+
+> 활동성 = 빈도수(최근3년/20년) >= 0.6
+
+<p align="center">
+<img src="/img/poping_keyword_extract.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+</br>
+
+
+#### 1.2.5 Poping 키프레이즈 추출
+
+
+
+#### 1.2.6 Poping 키워드&키프레이즈 검증
+
+
 
 ## 2. 위크시그널 성장예측모델
 
