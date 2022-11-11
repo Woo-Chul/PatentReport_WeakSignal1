@@ -56,14 +56,14 @@
 
 #### 1.2.2 키워드 추출
 
-> SoyNLP L-[R] 명사 추출기 사용
+> ```SoyNLP L-[R] 명사 추출기 사용```
 
 - 버전 : SoyNLP 0.0493
 - 통계기반의 미등록 용어문제 해결, L-[R] Graph 구조를 활용한 명사 추출
 - Noun Extractor를 이용한 명사 및 복합명사 추출 → LTokenizer를 이용한 단어 분리(KorPatBERT Tokenizer에서도 Mecab형태소 분석기 사용자 사전 용어 등록 시 활용)
 - LTokenizer 사용자 사전 명사 : 684,938건
 
-> KorPatBERT CPC 분류기 모델 사용
+> ```KorPatBERT CPC 분류기 모델 사용```
 
 - LTokenizer 사용자 사전 복합 명사 : 959,757건
 - 총 구축 명사 1,644,694건
@@ -77,7 +77,7 @@
 
 #### 1.2.3 키프레이즈 추출
 
-> 실험 대상 기준 키프레이즈 추출
+> ```실험 대상 기준 키프레이즈 추출```
 
 - 대상필드 : 발명의 명칭, 요약, 배경기술, 기술분야 필드
 - 키 프레이즈란 약 2~4 내의 단어로 이루어진 의미적으로 완전한 어구
@@ -101,21 +101,21 @@
 </p>
 </br>
 
-> 경향성 0초과 키워드 [135,809건] 대상
+> ```경향성 0초과 키워드 [135,809건] 대상```
 
 <p align="center">
 <img src="/img/poping_keyword_extract_target.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
 
-> BM25기반, TF-IDF기반 Poping 키워드 예시
+> ```BM25기반, TF-IDF기반 Poping 키워드 예시```
 
 <p align="center">
 <img src="/img/poping_keyword_extract_ex.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
 
-> Poping 키워드 추출 결과
+> ```Poping 키워드 추출 결과```
 
 <p align="center">
 <img src="/img/poping_keyword_extract_result.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
@@ -124,7 +124,7 @@
 
 #### 1.2.5 Poping 키프레이즈 추출
 
-> PS-IDS
+> ```PS-IDS```
 
 - PS(Phrase Similarity) : 키프레이즈-문서간의 유사도
 - IDS(Inversed Document Similarity) : 키프레이즈와 총문서들간의 유사도 역수
@@ -134,13 +134,13 @@
 <img src="/img/tf-idf.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
-> Poping 키프레이즈 후보 추출 조건
+> ```Poping 키프레이즈 후보 추출 조건```
 
 <p align="center">
 <img src="/img/poping_keyphrase_hubo.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
-> 키프레이즈 PS-IDS 분포
+> ```키프레이즈 PS-IDS 분포```
 
 - Log & Max scaling 기준 > 0.67 키프레이즈 : 73,313건
 - 프레이즈 내부 키워드 별 경향성 합계 > 0  : 21,880 건
@@ -149,13 +149,13 @@
 <img src="/img/poping_keyphrase_hubo2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
-> Poping 키프레이즈 추출 조건
+> ```Poping 키프레이즈 추출 조건```
 
 <p align="center">
 <img src="/img/poping_keyphrase_final.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
-> Poping 키프레이즈 후보군 규모성 & 활동성 분포
+> ```Poping 키프레이즈 후보군 규모성 & 활동성 분포```
 
 - 키워드 별 규모성 지표 평균 >= 8 and 키워드 별 활동성 지표 평균 >= 0.5 : 575건
 
