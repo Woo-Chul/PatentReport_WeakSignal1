@@ -135,6 +135,24 @@
 
 #### 1.2.6 Poping 키워드&키프레이즈 검증
 
+> 상위 6개의 경향이 대부분 동일함
+
+> A24의 경우 타분류와 대비성이 강한 특징으로 유달리 높은 유사도 결과에 기인
+
+> A24와 같이 유사코드가 많은 경우 더욱 유사도 관점에서 높은 키워드 존재
+
+> 추출 결과가 출원 통계대비 크게 벗어나지 않은 결과를 보임
+
+<p align="center">
+<img src="/img/poping_keyword_phrase_check1.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+
+<p align="center">
+<img src="/img/poping_keyword_phrase_check2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+
+
+
 
 
 ## 2. 위크시그널 성장예측모델
