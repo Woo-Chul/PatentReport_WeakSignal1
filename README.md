@@ -25,7 +25,7 @@
 > 법을 시도해보았고 한국특허정보원에서도 국내 특허데이터로 실험을 진행해보았습니다.
 
 ### 1.1 위크시그널 자동탐지 프로세스
-> 이 글에서는 혼동을 방지하기 위해 참고한 KISTI 미래기술 위크시그널 방식은 'KISTI 위크시그널'로 명명하고 특허데이터를 적용한 방식은 'KIPI 위크시그널'로 구분하여 설명드리겠습니다.
+이 글에서는 혼동을 방지하기 위해 참고한 KISTI 미래기술 위크시그널 방식은 'KISTI 위크시그널'로 명명하고 특허데이터를 적용한 방식은 'KIPI 위크시그널'로 구분하여 설명드리겠습니다.
 
 > KISTI 위크시그널 자동탐지 프로세스
 <p align="center">
@@ -117,6 +117,35 @@
 
 <p align="center">
 <img src="/img/tf-idf.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+
+> Poping 키프레이즈 후보 추출 조건
+
+<p align="center">
+<img src="/img/poping_keyphrase_hubo.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+
+> 키프레이즈 PS-IDS 분포
+
+- Log & Max scaling 기준 > 0.67 키프레이즈 : 73,313건
+- 프레이즈 내부 키워드 별 경향성 합계 > 0  : 21,880 건
+
+<p align="center">
+<img src="/img/poping_keyphrase_hubo2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+
+> Poping 키프레이즈 추출 조건
+
+<p align="center">
+<img src="/img/poping_keyphrase_final.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+
+> Poping 키프레이즈 후보군 규모성 & 활동성 분포
+
+- 키워드 별 규모성 지표 평균 >= 8 and 키워드 별 활동성 지표 평균 >= 0.5 : 575건
+
+<p align="center">
+<img src="/img/poping_keyphrase_final2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
 > doc1-gram1 PS-IDS Score = 0.9 x log(3/0.9+0.3+0.2)+1)
