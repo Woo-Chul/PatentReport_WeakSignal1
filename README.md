@@ -1,4 +1,4 @@
-# <img src="/img/kipi_logo.png" width="5%" height="3%" title="px(픽셀) 크기 설정" alt="kipi" align="left">KIPI DATA INSIGHT</img>
+# <img src="/img/kipi_logo.png" width="5%" height="3%" title="px(픽셀) 크기 설정" alt="kipi" align="left">KIPI DATA INSIGHT 제1호 </img>
 
 특허 DATA를 활용한 미래 기술 위크시그널 성장예측 분석
 ======================
@@ -14,6 +14,7 @@
 <p align="center">
 <img src="/img/weaksignal_cover_19.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="cover19" align="center"></img>
 </p>
+<p align="center"> 참고 인용 문헌 : KISTI 미래기술 위크시그널 성장예측보고서 </p>
 </br>
 </br>
 
@@ -266,6 +267,13 @@
 > ```KSIC 산업분류를 활용한 CPC 위크시그널 해석```
 
 ## 2. CPC 코드 활용 위크시그널 성장예측모델
+
+> ```왜 CPC 코드를 활용할까?```
+
+> 
+> 
+> 
+> 
 
 ### 2.1 학습모델: Graph Convolutional Neural Network
 
