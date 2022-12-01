@@ -11,7 +11,7 @@
 
 </br>
 </br>
-<p align="center">
+<p align="center"> 
 <img src="/img/weaksignal_cover_19.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="cover19" align="center"></img>
 </p>
 <p align="center"> *참고 : KISTI 미래기술 위크시그널 성장예측보고서 </p>
