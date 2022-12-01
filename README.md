@@ -36,6 +36,9 @@
 </br>
 
 > ```KIPI 위크시그널 자동탐지 프로세스```
+
+> 우선 KISTI 프로세스와 다른 점은 키워드와 구문(=키프레이즈) 추출 부분입니다. n-gram 방식으로 키워드를 추출하는 방식에서 LTokenizer를 통해 통계기반으로 명사를 추출하게 되었고, BERT 임베딩 모델을 활용하여 키프레이즈(=구문)을 추출하는 방법에 있습니다. 또한 특허 내에 제목, 초록 뿐만아니라 배경기술, 기술분야의 내용에서도 뽑아내는 점이 변경영역으로 볼 수 있습니다. 나머지 프로세스들은 데이터의 규모나 특허데이터라는 특성만 다른뿐 비슷한 형태를 지니고 있습니다.
+
 <p align="center">
 <img src="/img/KIPI_process.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="kipi" align="center"></img>
 </p>
@@ -63,13 +66,8 @@
 - 통계기반의 미등록 용어문제 해결, L-[R] Graph 구조를 활용한 명사 추출
 - Noun Extractor를 이용한 명사 및 복합명사 추출 → LTokenizer를 이용한 단어 분리(KorPatBERT Tokenizer에서도 Mecab형태소 분석기 사용자 사전 용어 등록 시 활용)
 - LTokenizer 사용자 사전 명사 : 684,938건
-
-> ```KorPatBERT CPC 분류기 모델 사용```
-
-- LTokenizer 사용자 사전 복합 명사 : 959,757건
-- 총 구축 명사 1,644,694건
-- Noun Score > 0.8
-- 대상 문헌 기준 386,904건의 명사 추출
+- 복합 명사 : 954,691건 
+- 684,938 + 954,691 = 1,589,576건
 
 <p align="center">
 <img src="/img/ex_keyword_extract.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
@@ -78,11 +76,11 @@
 
 #### 1.2.3 키프레이즈 추출
 
-> ```실험 대상 기준 키프레이즈 추출```
+> ```KorPatBERT CPC 분류기 모델 사용```
 
-- 대상필드 : 발명의 명칭, 요약, 배경기술, 기술분야 필드
-- 키 프레이즈란 약 2~4 내의 단어로 이루어진 의미적으로 완전한 어구
-- 워드단위 < 프레이즈 단위 < 문장단위 
+- 대상필드 : 제목, 요약, 배경기술, 기술분야
+- 워드단위 < 프레이즈 < 문장단위
+- 약 2~10 내의 단어로 이루어진 의미적으로 완전한 어구
 
 <p align="center">
 <img src="/img/key_phrase.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
