@@ -232,10 +232,6 @@
 </p>
 <p align="center">< connected component 결과 예시></p>
 
-<p align="center">
-<img src="/img/weaksignal_cc.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
-</p>
-<p align="center">< connected component 결과 시각화></p>
 
 > ```신규 팝핑 clique 예시```
 
@@ -246,14 +242,22 @@
 </p>
 <p align="center">< clique 결과 예시></p>
 
-<p align="center">
-<img src="/img/weaksignal_c.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
-</p>
-<p align="center">< clique 결과 시각화></p>
   
 #### 1.2.11 위크시그널 추출
 
+> ```일반 팝핑 위크시그널 예시```
 
+<p align="center">
+<img src="/img/weaksignal_cc.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center">< 일반 팝핑 위크시그널 결과 시각화></p>
+
+> ```신규 팝핑 위크시그널 예시```
+
+<p align="center">
+<img src="/img/weaksignal_c.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center">< 신규 팝핑 위크시그널 결과 시각화></p>
 
 ### 1.3 Focus Index 추출
 
