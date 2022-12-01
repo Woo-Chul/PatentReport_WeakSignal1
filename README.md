@@ -251,12 +251,16 @@
     
 > ```일반 팝핑 위크시그널 예시```
 
+> 일반 팝핑 connected component가 56개 추출되고 이것들이 일반 팝핑 위크시그널이 됩니다. 하나의 예시로 '모빌리티 전동휠', '모빌리티', '보조동력장치 수동휠체어' 등으로 이루어진 기술이 위크 시그널로 추출된 것을 볼 수 있습니다.
+
 <p align="center">
 <img src="/img/weaksignal_cc.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center">< 일반 팝핑 위크시그널 결과 시각화></p>
 
 > ```신규 팝핑 위크시그널 예시```
+
+> 신규 팝핑 clique가 18개가 추출되고 이것들이 신규 팝핑 위크시그널이 됩니다. 하나의 예시로 '머신러닝'과 '딥러닝'의 키워드로 이루어진 기술을 볼 수 있습니다.
 
 <p align="center">
 <img src="/img/weaksignal_c.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
@@ -265,10 +269,10 @@
 
 ### 1.3 Focus Index 추출
 
-> 위크시그널을 해석하고 분석하기 위해서 각 위크시그널들 간에 유사도 거리가 0.4 이내인 것으로 하고 Connected component 하여 추출하면 포커스 인덱스가 그룹핑됩니다. 그렇게 74개의 위크시그널에서 42개의 포커스 인덱스가 형성됩니다. 아래는 각 그룹을 표현하는 매인 키워드는 형태소 분석기로 분리하여 가장 자주 출현된 토큰으로 명명하였습니다. 
+> 위크시그널을 해석하고 분석하기 위해서 각 위크시그널들 간에 유사도 거리가 0.4 이내인 것으로 하고 Connected component 하여 추출하면 포커스 인덱스가 그룹핑됩니다. 그렇게 74개의 위크시그널에서 42개의 포커스 인덱스가 형성됩니다. 각 그룹을 표현하는 매인 키워드는 형태소 분석기로 분리하여 가장 자주 출현된 토큰으로 명명하였습니다. 아래 하나 예시를 보면 위크시그널로 나온 것들이 '전자담배', '담배 베이핑', '전자담배장치' 등 볼 수 있습니다. 그리고 이것들을 쉽게 분석할 수 있도록 '담배'로 묶어서 포커스 인덱스 그룹핑 되는 것을 볼 수 있습니다. 
 
 <p align="center">
-<img src="/img/weaksignal_focus_index.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/weaksignal_focus_index.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center">< 위크시그널의 포커스 인덱스 예시></p>
 
