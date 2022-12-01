@@ -96,6 +96,12 @@
 - (BM25 == 1) or (TF-IDF == 1)
 - 경향성 = 빈도수(후반3년) - 빈도수(전반3년) > 10
 
+<p align="center">
+<img src="/img/poping_keyword_extract_ex.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center">BM25기반, TF-IDF기반 Poping 키워드 예시</p>
+</br>
+
 > ```Poping 키워드 추출 조건```
 
 - 규모성 = 빈도수(최근3년) >= 40
@@ -112,13 +118,6 @@
 
 <p align="center">
 <img src="/img/poping_keyword_extract_target.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
-</p>
-</br>
-
-> ```BM25기반, TF-IDF기반 Poping 키워드 예시```
-
-<p align="center">
-<img src="/img/poping_keyword_extract_ex.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
 
