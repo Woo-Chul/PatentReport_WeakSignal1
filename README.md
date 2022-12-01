@@ -91,6 +91,7 @@
 
 > ```Poping 키워드 후보 추출 조건```
 
+- (BM25 == 1) or (TF-IDF == 1)
 - 경향성 = 빈도수(후반3년) - 빈도수(전반3년) > 10
 
 > ```Poping 키워드 추출 조건```
@@ -197,13 +198,23 @@
 <img src="/img/poping_keyword_phrase_check2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
-#### 1.2.7 일반 Poping 키워드
+#### 1.2.7 Poping 키워드&키프레이즈 시각화
 
-#### 1.2.8 신규 Poping 키워드
+> ```Poping 키프레이즈 투명```
 
-#### 1.2.9 Connected components & Cliques
+<p align="center">
+<img src="/img/keyphrase_visualize.png" width="50%" height="50%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
 
-#### 1.2.10 위크시그널 추출
+#### 1.2.7 일반 Poping 키워드&키프레이즈
+
+#### 1.2.8 신규 Poping 키워드&키프레이즈
+
+#### 1.2.9 일반 Poping 키워드&키프레이즈 - Connected components
+
+#### 1.2.10 신규 Poping 키워드&키프레이즈 - Cliques
+
+#### 1.2.11 위크시그널 추출
 
 ### 1.3 Focus Index 추출
 
