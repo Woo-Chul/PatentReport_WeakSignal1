@@ -198,8 +198,9 @@
 - 신규 Poping 키워드&키프레이즈 수 : 118건
 
 <p align="center">
-<img src="/img/poping component_and_clique_before.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping component_and_clique_before.png" width="60%" height="60%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
+<p align="center">< 일반 팝핑 키워드&키프레이즈와 신규 팝핑 키워드&키프레이즈 추출 ></p>
 
 #### 1.2.8 Poping Connected components와 Poping Cliques 추출
 
@@ -213,6 +214,12 @@
 <p align="center">
 <img src="/img/poping component_and_clique.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
+<p align="center">< 일반 팝핑 connected component와 신규 팝핑 clique 추출 과정></p>
+
+<p align="center">
+<img src="/img/poping component_and_clique.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center">< connected component와 clique 예시></p>
 
 #### 1.2.11 위크시그널 추출
 
