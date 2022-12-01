@@ -127,7 +127,7 @@
 <p align="center">
 <img src="/img/poping_keyword_extract_ex.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
-<p align="center">BM25기반, TF-IDF기반 Poping 키워드 예시</p>
+<p align="center"> < BM25기반, TF-IDF기반 Poping 키워드 예시></p>
 </br>
 
 #### 1.2.5 Poping 키프레이즈 추출
