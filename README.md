@@ -102,7 +102,7 @@
 - 활동성 = 빈도수(최근3년/20년) >= 0.6
 
 <p align="center">
-<img src="/img/poping_keyword_extract.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyword_extract.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
 
@@ -111,21 +111,21 @@
 > 1999년부터 2018년까지 A 섹션 출원한 문헌이 505,506건인데 이 중 키워드로 치면 중복제거하고 386,904건이 됩니다. 이때 BM25 값이 1인 경우는 65,243건이 되고 경향성이 10초과 되는 건은 16,107건이 됩니다. 이 16,107건의 키워드가 팝핑 키워드 후보가 될 것이고 팝핑 키워드 조건인 규모성이 40이상이고 활동성이 0.6이상인 것이 766건이 나오게 됩니다.
 
 <p align="center">
-<img src="/img/poping_keyword_extract_target.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyword_extract_target.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
 
 > ```BM25기반, TF-IDF기반 Poping 키워드 예시```
 
 <p align="center">
-<img src="/img/poping_keyword_extract_ex.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyword_extract_ex.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
 
 > ```Poping 키워드 추출 결과```
 
 <p align="center">
-<img src="/img/poping_keyword_extract_result.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyword_extract_result.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
 
@@ -144,7 +144,7 @@
 > ```Poping 키프레이즈 후보 추출 조건```
 
 <p align="center">
-<img src="/img/poping_keyphrase_hubo.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyphrase_hubo.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
 > ```키프레이즈 PS-IDS 분포```
@@ -153,13 +153,13 @@
 - 프레이즈 내부 키워드 별 경향성 합계 > 0  : 21,880 건
 
 <p align="center">
-<img src="/img/poping_keyphrase_hubo2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyphrase_hubo2.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
 > ```Poping 키프레이즈 추출 조건```
 
 <p align="center">
-<img src="/img/poping_keyphrase_final.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyphrase_final.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
 > ```Poping 키프레이즈 후보군 규모성 & 활동성 분포```
@@ -167,7 +167,7 @@
 - 키워드 별 규모성 지표 평균 >= 8 and 키워드 별 활동성 지표 평균 >= 0.5 : 575건
 
 <p align="center">
-<img src="/img/poping_keyphrase_final2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyphrase_final2.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
 > doc1-gram1 PS-IDS Score = 0.9 x log(3/0.9+0.3+0.2)+1)
@@ -178,7 +178,7 @@
 - IDS 용 doc vector = 1/10 of total doc vector
 
 <p align="center">
-<img src="/img/ps-ids.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/ps-ids.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
 
@@ -195,11 +195,11 @@
 > 추출 결과가 출원 통계대비 크게 벗어나지 않은 결과를 보임
 
 <p align="center">
-<img src="/img/poping_keyword_phrase_check1.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyword_phrase_check1.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
 <p align="center">
-<img src="/img/poping_keyword_phrase_check2.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyword_phrase_check2.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
 #### 1.2.7 Poping 키워드&키프레이즈 시각화
