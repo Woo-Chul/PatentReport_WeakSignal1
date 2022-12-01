@@ -193,9 +193,15 @@
 
 > 팝핑 키워드로 766건, 팝핑 키프레이즈 575건을 합해 1,341건이 추출되었습니다. 이제 여기서 위크시그널을 추출해야합니다. 위크시그널은 활동성이 1인 경우는 신규 팝핑 키워드&키프레이즈로 구분하고 1이 아닌 경우는 일반 팝핑 키워드&키프레이즈가 될 것입니다. 그리고 키워드의 그래프 기술그룹으로 만들기 위해 유사도 거리가 0.3이내 인 것은 일반 팝핑 connected component가 되고 0.5이내 인 것은 신규 팝핑 clique이 될 것입니다. 그리고 이것들을 합쳐서 위크시그널을 확인 할 수 있습니다. 
 
-- Poping 키워드&키프레이즈 수 : 1,341건   →   
-- →
-- 
+- Poping 키워드&키프레이즈 수 : 1,341건   
+- 일반 Poping 키워드&키프레이즈 수 : 1,223건
+- 신규 Poping 키워드&키프레이즈 수 : 118건
+- 일반 Poping Connected Component 수 : 841건
+- 신규 Poping Clique 수 : 91건
+
+<p align="center">
+<img src="/img/poping component_and_clique.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
 
 #### 1.2.8 신규 Poping 키워드&키프레이즈
 
