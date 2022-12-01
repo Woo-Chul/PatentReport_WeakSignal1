@@ -96,12 +96,6 @@
 - (BM25 == 1) or (TF-IDF == 1)
 - 경향성 = 빈도수(후반3년) - 빈도수(전반3년) > 10
 
-<p align="center">
-<img src="/img/poping_keyword_extract_ex.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
-</p>
-<p align="center">BM25기반, TF-IDF기반 Poping 키워드 예시</p>
-</br>
-
 > ```Poping 키워드 추출 조건```
 
 - 규모성 = 빈도수(최근3년) >= 40
@@ -123,14 +117,24 @@
 
 > ```Poping 키워드 추출 결과```
 
+> 팝핑 키워드 후보 16,107건 중 활동성이 0.6이상인 건 3,741건이고 이 중 규모성이 40이상인 걸 뽑으면 766건이 팝핑 키워드로 추출됩니다. 아래 실제 BM25 기반과 TF-IDF기반으로 팝핑 키워드가 결과로 뽑힌 예시를 볼 수 있습니다.참고로 TF-IDF기반만으로 경향성, 규모성, 활동성 조건들을 필터로 팝핑 키워드를 뽑게되면 656건이 뽑히게 됩니다.
+
 <p align="center">
 <img src="/img/poping_keyword_extract_result.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 </br>
 
+<p align="center">
+<img src="/img/poping_keyword_extract_ex.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center">BM25기반, TF-IDF기반 Poping 키워드 예시</p>
+</br>
+
 #### 1.2.5 Poping 키프레이즈 추출
 
 > ```PS-IDS```
+
+> 이번에는 팝핑 키프레이즈 후보를 추출하기 위해 PS-IDS로 대상 건을 추려낼 것입니다. PS-IDS는 TF-IDF와 원리는 같지만 내용을 변형한 형태로 보시면 됩니다. 키프레이즈가 문서와 얼마나 유사한지를 위한 공식으로 만들었고 이를 통해 후보를 추출 할 것입니다. 
 
 - PS(Phrase Similarity) : 키프레이즈-문서간의 유사도
 - IDS(Inversed Document Similarity) : 키프레이즈와 총문서들간의 유사도 역수
@@ -142,20 +146,18 @@
 
 > ```Poping 키프레이즈 후보 추출 조건```
 
-<p align="center">
-<img src="/img/poping_keyphrase_hubo.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
-</p>
-
-> ```키프레이즈 PS-IDS 분포```
+> 문헌 당 Top200의 키프레이즈를 뽑았기 때문에 평균적으로 200건이 있고 총 60,633,476건의 키프레이즈가 있습니다. 이때 팝핑 키프레이즈 후보를 추출하기 위해 PS-IDS값에 log값을 씌워 0.67보다 큰 경우 73,313건이 나오게 됩니다. 또한 추가적인 조건으로 키워드 별 경향성의 합이 0보다 큰 경우 규모가 더 줄어들어 결국 팝핑 키프레이즈 후보가 21,880건이 됩니다. 
 
 - Log & Max scaling 기준 > 0.67 키프레이즈 : 73,313건
 - 프레이즈 내부 키워드 별 경향성 합계 > 0  : 21,880 건
 
 <p align="center">
-<img src="/img/poping_keyphrase_hubo2.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyphrase_hubo.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
 > ```Poping 키프레이즈 추출 조건```
+
+> 이제 팝핑 키프레이즈 후보 21,880건을 뽑았고 이 중 팝핑 키프레이즈 조건으로 규모성과 활동성을 적용하여 대상건을 추출하겠습니다. 규모성은 9이상이고 활동성이 0.5이상인 것은 약 2.6%로 575건이 키프레이즈로 뽑히게 됩니다. 
 
 <p align="center">
 <img src="/img/poping_keyphrase_final.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
