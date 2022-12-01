@@ -225,23 +225,32 @@
 
 > ```일반 팝핑 connected component 예시```
 
-> cosine similarity 거리가 0.3 이내 인 경우, 841건이 추출 되고 노드가 3개 이상으로 이루어진 그래프가 56개가 추출됩니다.
+> cosine similarity 거리가 0.3 이내 인 경우, 841건이 추출 되고 노드가 3개 이상으로 이루어진 그래프가 56개가 추출됩니다. 즉 위크 시그널이 됩니다.
 
 <p align="center">
 <img src="/img/connected component_fianl_ex.png" width="90%" height="90%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center">< connected component 결과 예시></p>
 
+<p align="center">
+<img src="/img/weaksignal_cc.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center">< connected component 결과 시각화></p>
 
 > ```신규 팝핑 clique 예시```
 
-> cosine similarity 거리가 0.5 이내 인 경우, 91건이 추출 되고 노드가 2개 이상으로 이루어진 그래프가 18개가 추출됩니다.
+> cosine similarity 거리가 0.5 이내 인 경우, 91건이 추출 되고 노드가 2개 이상으로 이루어진 그래프가 18개가 추출됩니다. 즉 위크 시그널이 됩니다.
 
 <p align="center">
 <img src="/img/clique_final_ex.png" width="90%" height="90%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 <p align="center">< clique 결과 예시></p>
 
+<p align="center">
+<img src="/img/weaksignal_c.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center">< clique 결과 시각화></p>
+  
 #### 1.2.11 위크시그널 추출
 
 
