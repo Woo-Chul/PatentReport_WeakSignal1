@@ -152,7 +152,7 @@
 - 프레이즈 내부 키워드 별 경향성 합계 > 0  : 21,880 건
 
 <p align="center">
-<img src="/img/poping_keyphrase_hubo.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyphrase_hubo.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
 > ```Poping 키프레이즈 추출 조건```
@@ -160,48 +160,28 @@
 > 이제 팝핑 키프레이즈 후보 21,880건을 뽑았고 이 중 팝핑 키프레이즈 조건으로 규모성과 활동성을 적용하여 대상건을 추출하겠습니다. 규모성은 9이상이고 활동성이 0.5이상인 것은 약 2.6%로 575건이 키프레이즈로 뽑히게 됩니다. 
 
 <p align="center">
-<img src="/img/poping_keyphrase_final.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+<img src="/img/poping_keyphrase_final.png" width="100%" height="100%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
 
-> ```Poping 키프레이즈 후보군 규모성 & 활동성 분포```
 
-- 키워드 별 규모성 지표 평균 >= 8 and 키워드 별 활동성 지표 평균 >= 0.5 : 575건
+#### 1.2.6 Poping 키워드&키프레이즈 
 
-<p align="center">
-<img src="/img/poping_keyphrase_final2.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
-</p>
+- Poping 키워드 수 : 766건
+- Poping 키프레이즈 수 : 575건
 
-> doc1-gram1 PS-IDS Score = 0.9 x log(3/0.9+0.3+0.2)+1)
-
-> 연산율 감소 방안
-
-- Gram vector = mean(noun1_v1, noun2_v, noun3_v)
-- IDS 용 doc vector = 1/10 of total doc vector
-
-<p align="center">
-<img src="/img/ps-ids.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
-</p>
-</br>
-
-
-
-#### 1.2.6 Poping 키워드&키프레이즈 검증
-
-> 상위 6개의 경향이 대부분 동일함
-
-> A24의 경우 타분류와 대비성이 강한 특징으로 유달리 높은 유사도 결과에 기인
-
-> A24와 같이 유사코드가 많은 경우 더욱 유사도 관점에서 높은 키워드 존재
-
-> 추출 결과가 출원 통계대비 크게 벗어나지 않은 결과를 보임
-
-<p align="center">
-<img src="/img/poping_keyword_phrase_check1.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
-</p>
+> 팝핑 키워드 766건, 팝핑 키프레이즈 575건 합계 1,341건이 추출되었고 이 건들에 대해 면밀히 확인해보았습니다. 결과로 추출된 팝핑 키워드 & 키프레이즈 A 섹션의 클래스 별 건수가 A섹션 출원 대비 통계적으로 크게 벗어나지 않은 결과를 보였고, 메인 클래스 기준으로 보았을 때, 상위 6개의 경향이 일치한 것을 알 수 있었습니다. 특이한 것은 A24의 경우 타분류와 대비성이 강한 특징으로 유달리 높은 유사도 결과를 보였는데 CPC 정의서를 보면 A24는 '담배;엽권담배; 지권담배; 흡연용구'를 의미합니다. 
 
 <p align="center">
 <img src="/img/poping_keyword_phrase_check2.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
 </p>
+<p align="center">A섹션의 클래스 별 출원 건수와 팝핑 키워드&키프레이즈의 클래스 별 유사도</p>
+
+<p align="center">
+<img src="/img/poping_keyword_phrase_check1.png" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="taget" align="center"></img>
+</p>
+<p align="center">A섹션 내 메인클래스 상위 6개와 CPC 정의서</p>
+
+
 
 #### 1.2.7 Poping 키워드&키프레이즈 시각화
 
