@@ -1,4 +1,4 @@
-# <img src="/img/kipi_logo.png" width="5%" height="3%" title="px(픽셀) 크기 설정" alt="kipi" align="left">KIPI DATA INSIGHT 제1호 : 특허 DATA의 키워드를 활용한 미래 기술 위크시그널 분석</img>
+# <img src="/img/kipi_logo.png" width="5%" height="3%" title="px(픽셀) 크기 설정" alt="kipi" align="left"> 특허 DATA를 활용한 미래 기술 위크시그널 분석1 - 키프레이즈 기반으로</img>
 
 # Preview
 
@@ -23,7 +23,7 @@
 
 ---
 
-# 1. 미래기술 위크시그널 - 키워드 활용편
+# 1. 미래기술 위크시그널 - 키워드, 키프레이즈 활용편
 ## 1.1. 위크시그널
 > 위크시그널의 개념은 전략적 관리자로 알려진 Ansoff의 "Managing Strategic Surprise by Response to Weak Signals"라는 논문에서 기업이 외부변화로부터 받게 될 충격을 관리하기 위
 > 해 충격을 야기할 수 있는 작은 신호로 사용되었습니다. 경험적 외삽으로는 설명하기 어렵고 그 중요성이 불분명하지만, 미래에 일어날 일들에 대한 정보를 담고 있는 작은 징후로 보기도 
